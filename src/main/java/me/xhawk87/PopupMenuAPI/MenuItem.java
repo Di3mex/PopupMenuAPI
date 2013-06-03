@@ -26,7 +26,7 @@ public abstract class MenuItem {
     private int number;
     private MaterialData icon;
     private String text;
-    private List<String> descriptions = new ArrayList<>();
+    private List<String> descriptions = new ArrayList<String>();
 
     /**
      * Create a new menu item with the given title text on mouse over

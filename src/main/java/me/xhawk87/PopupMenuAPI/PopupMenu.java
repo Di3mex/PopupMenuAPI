@@ -21,7 +21,7 @@ import org.bukkit.inventory.ItemStack;
  */
 public class PopupMenu implements InventoryHolder {
 
-    private HashMap<Integer, MenuItem> items = new HashMap<>();
+    private HashMap<Integer, MenuItem> items = new HashMap<Integer, MenuItem>();
     private Inventory inventory;
     private String title;
     private int size;
